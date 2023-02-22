@@ -1,0 +1,23 @@
+{
+  "name": "darkhan-rising",
+  "version": "1.0.0",
+  "description": "A simple website for a d&amp;d campaign.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aidanshilling/darkhan-rising.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidanshilling/darkhan-rising/issues"
+  },
+  "homepage": "https://github.com/aidanshilling/darkhan-rising#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
