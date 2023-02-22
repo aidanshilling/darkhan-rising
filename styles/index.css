@@ -1,0 +1,14 @@
+body {
+	display: block;
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img {
+	width: 500px;
+}
+
+.content-wrapper {
+	margin: 1em;
+}
