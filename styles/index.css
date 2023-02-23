@@ -14,11 +14,6 @@ body {
 	color: rgba(255, 255, 255, 0.87);
 }
 
-img {
-	width: auto;
-	max-width: 500px;
-}
-
 ol {
 	padding-left: 1em;
 }
@@ -29,4 +24,8 @@ ol {
 
 .container {
 	margin-bottom: 1em;
+}
+
+li img {
+	max-width: 500px;
 }
