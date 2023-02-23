@@ -15,7 +15,8 @@ body {
 }
 
 img {
-	width: 500px;
+	width: auto;
+	max-width: 500px;
 }
 
 ol {
