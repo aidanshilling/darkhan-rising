@@ -1,12 +1,25 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
 	display: block;
 	max-width: 960px;
 	margin-right: auto;
 	margin-left: auto;
+	background-color: #121212;
+	color: rgba(255, 255, 255, 0.87);
 }
 
 img {
 	width: 500px;
+}
+
+ol {
+	padding-left: 1em;
 }
 
 .content-wrapper {
