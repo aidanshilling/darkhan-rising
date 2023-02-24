@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface HeaderProps {
 	image: string;
 }
@@ -5,7 +7,11 @@ interface HeaderProps {
 export default function Header({ image }: HeaderProps) {
 	return (
 		<div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-			<img src={image} alt="" className="absolute inset-0 -z-10 h-full w-full object-cover brightness-50 opacity-80" />
+			<Image
+				src={image}
+				alt="Map"
+				className="absolute inset-0 -z-10 h-full w-full object-cover brightness-50 opacity-80"
+			/>
 			<svg
 				viewBox="0 0 1097 845"
 				aria-hidden="true"

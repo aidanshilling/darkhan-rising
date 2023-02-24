@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export interface Item {
 	name: string;
 	type: string;
@@ -25,7 +27,7 @@ export default function ItemDisplay({ items, title, description }: ItemDisplayPr
 				>
 					{items.map((item) => (
 						<li key={item.name} className="group">
-							<img
+							<Image
 								className="group-hover:brightness-50 ease-in duration-100 aspect-[3/2] w-full rounded-2xl object-cover"
 								src={item.imageUrl}
 								alt=""
