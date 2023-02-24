@@ -31,13 +31,13 @@ const nations: Item[] = [
 		type: "Nation",
 		imageUrl: "kide.webp",
 	},
-	// {
-	// 	name: "Ardon",
-	// 	description:
-	// 		"Once inhabited by the ancient races of Orc's, tieflings and others. As the humans and elves expanded, many of these races were killed off in horrible wars. This land has never really fit into society well, but is currently inhabited by mostly working class humans, elves and half elves. There is a lot of industry influence from the Empire here, even though it's technically in the republic's sphere of influence.",
-	// 	type: "Nation",
-	// 	imageUrl: "ardon.webp",
-	// },
+	{
+		name: "Ardon",
+		description:
+			"Once inhabited by the ancient races of Orc's, tieflings and others. As the humans and elves expanded, many of these races were killed off in horrible wars. This land has never really fit into society well, but is currently inhabited by mostly working class humans, elves and half elves. There is a lot of industry influence from the Empire here, even though it's technically in the republic's sphere of influence.",
+		type: "Nation",
+		imageUrl: "ardon.webp",
+	},
 ];
 
 export default function Home() {
